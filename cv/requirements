@@ -1,0 +1,13 @@
+apt-get install python-pip
+apt-get install libmysqlclient-dev
+pip install Django==1.8.4
+pip install djangorestframework==3.3
+pip install pygments  # We'll be using this for the code highlighting
+pip install djangorestframework-jwt
+pip install django-cors-headers
+pip install django-sslserver
+pip install django-filter
+pip install python-dateutil
+pip install python-dev
+pip install mysql-python
+pip install django_smtp_ssl
