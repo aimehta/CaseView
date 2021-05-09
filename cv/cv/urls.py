@@ -18,4 +18,7 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', include(admin.site.urls)),
+    url(r'^', include('cv_api.urls')),
+    url(r'^([a-zA-Z0-9]+)$/', include('cv_api.urls', namespace='v1', app_name='cv_api')),
+    url(r'^/', include('cv_api.urls')),
 ]
