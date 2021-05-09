@@ -2,6 +2,7 @@
 ## Get started ##
 ### Step 1  ###
 #### Pre requisites
+    Check requirements file to run commands
 
 |    Package           |       Version |
 |-----------------------| ------- |
