@@ -2,7 +2,7 @@
 ## Get started ##
 ### Step 1  ###
 #### Pre requisites
-    Check requirements file to run commands
+    Check requirements file to run commands or run install.sh to install the basic requirements.
 
 |    Package           |       Version |
 |-----------------------| ------- |
