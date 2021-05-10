@@ -2,6 +2,7 @@
 ## Get started ##
 ### Step 1  ###
 #### Pre requisites
+    Operating System: Ubuntu 14.X
     Check requirements file to run commands or run install.sh to install the basic requirements.
 
 |    Package           |       Version |
