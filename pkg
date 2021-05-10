@@ -31,6 +31,4 @@ securesystemslib        0.11.3
 setuptools              41.0.1
 simplejson              3.16.0
 six                     1.11.0
-tuf                     0.11.0
-uptane                  0.1.0
 wheel                   0.33.4
