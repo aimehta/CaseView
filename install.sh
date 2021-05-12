@@ -1,9 +1,10 @@
 sudo apt-get update
+sudo apt install git
 sudo apt-get install libmysqlclient-dev
 sudo apt-get install python-dev
 sudo pip install python-dateutil==2.8.0
 sudo pip install Django==1.8.4
-sudo pip install djangorestframework=3.3.0
+sudo pip install djangorestframework==3.3.0
 sudo pip install pygments
 sudo pip install djangorestframework-jwt==1.11.0
 sudo pip install django-cors-headers==3.0.2
