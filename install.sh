@@ -2,6 +2,7 @@ sudo apt-get update
 sudo apt install git
 sudo apt install python-pip
 sudo apt-get install libmysqlclient-dev
+sudo apt-get install python-dev-is-python2
 sudo apt-get install python-dev
 sudo pip install python-dateutil==2.8.0
 sudo pip install Django==1.8.4
