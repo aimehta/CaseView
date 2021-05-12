@@ -2,9 +2,12 @@
 ## Get started ##
 ### Step 1  ###
 #### Pre requisites
-    Operating System: Ubuntu 14.X
+    Operating System: Ubuntu 20.X or 14.X
     Python: 2.7.X
     Check requirements file to run commands or run install.sh to install the basic requirements.
+    Note: If you are using a fresh install of Ubuntu 20.04, you need to click on install.sh located in this repo, copy the contents and open terminal window on
+    Ubuntu. Give command "nano ./install.sh" and paste the contains. Save the file using  "<control> o" &  <enter>. Exit the editor by "<control> x". make the
+    install.sh executable by "chmod +x ./install.sh". Run ./install.sh. The process may ask for confirmations a few places.
 
 |    Package           |       Version |
 |-----------------------| ------- |
@@ -63,6 +66,7 @@
 #### Server Basic Setup  ####
 
     cd cv
+    sudo rm -rf ./cv_api/migrations/
     sudo python manage.py makemigrations cv_api (follow the prompts)
     sudo python manage.py migrate (Tables will be created)
     sudo python manage.py createsuperuser (give admin as username and password and leave email blank)
